@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>قوالب Flutter لمتابعة الطلاب</title>
+<style>
+  body {
+    font-family: Tahoma, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: #333;
+  }
+  header {
+    text-align: center;
+    padding: 80px 20px;
+  }
+  header h1 {
+    font-size: 2.5em;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  header p {
+    color: #f0f0f0;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  .cta {
+    background: #fff;
+    color: #0077cc;
+    padding: 15px 40px;
+    font-size: 1.2em;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  .cta:hover {
+    background: #0077cc;
+    color: #fff;
+  }
+  section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+  }
+  section h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .features, .testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .feature, .testimonial {
+    background: rgba(255,255,255,0.2);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    flex: 1 1 250px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+  .feature img, .testimonial img {
+    max-width: 80px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  .feature p, .testimonial p {
+    margin: 10px 0;
+  }
+  .testimonial h3 {
+    margin-top: 0;
+  }
+  footer {
+    text-align: center;
+    padding: 40px 20px;
+    color: #fff;
+    background: rgba(0,0,0,0.2);
+  }
+  @media (max-width: 768px) {
+    header h1 { font-size: 2em; }
+    .cta { font-size: 1em; padding: 12px 25px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>ابنِ تطبيق متابعة الطلاب في أيام</h1>
+  <p>احصل على قوالب Flutter جاهزة لتطبيق متابعة الأداء الدراسي للطلاب وأولياء الأمور</p>
+  <a href="https://t.me/student_traker_templates" class="cta">انضم إلى القناة الآن</a>
+</header>
+
+<section>
+  <h2>مميزات القالب</h2>
+  <div class="features">
+    <div class="feature">
+      <img src="https://unsplash.com/photos/hpjSkU2UYSU/download?force=true&w=100" alt="Dashboard">
+      <p><strong>Dashboard:</strong> أكثر من 20 شاشة جاهزة لإدارة الطلاب والمهام</p>
+    </div>
+    <div class="feature">
+      <img src="https://unsplash.com/photos/rDEOVtE7vOs/download?force=true&w=100" alt="Widgets">
+      <p><strong>Widgets:</strong> Widgets تفاعلية وسهلة التخصيص لكل شاشة</p>
+    </div>
+    <div class="feature">
+      <img src="https://unsplash.com/photos/5QgIuuBxKwM/download?force=true&w=100" alt="Video">
+      <p><strong>توثيق كامل:</strong> مع فيديوهات شرح قصيرة</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>شهادات العملاء</h2>
+  <div class="testimonials">
+    <div class="testimonial">
+      <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User 1">
+      <p>“القوالب سهلت عليّ بناء التطبيق بسرعة كبيرة. تصميم جميل وواضح.”</p>
+      <h3>– أحمد</h3>
+    </div>
+    <div class="testimonial">
+      <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="User 2">
+      <p>“أنا راضي جدًا عن الشروحات والفيديوهات. أنصح الجميع بها.”</p>
+      <h3>– سارة</h3>
+    </div>
+    <div class="testimonial">
+      <img src="https://randomuser.me/api/portraits/men/56.jpg" alt="User 3">
+      <p>“أفضل طريقة لتوفير وقت التطوير، كل شيء مرتب وجاهز.”</p>
+      <h3>– محمد</h3>
+    </div>
+  </div>
+</section>
+
+<footer>
+  جميع الحقوق محفوظة © 2025  
+</footer>
+
+</body>
+</html>
